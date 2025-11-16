@@ -1,4 +1,4 @@
-﻿### AdvancedSaveSystem — Read Me
+﻿### AdvancedSaveSystem
 
 #### Overview
 AdvancedSaveSystem is a runtime plugin that centralizes game saving through a `UGameInstanceSubsystem` called `USaveGameSubsystem` and a concrete save object `UAdvancedLocalPlayerSaveGame` (derived from `ULocalPlayerSaveGame`). It exposes a simple Blueprint/C++ API to get the current save object, trigger saves, and react to lifecycle events via a state enum and delegates.
